@@ -1,6 +1,6 @@
 require('dotenv').config()
 const TeleBot = require('telebot');
-const bot = new TeleBot(process.env.5320865354:AAH_jI-Gonos_IVHFBoLRrAQBtBhoI-73Mc);
+const bot = new TeleBot(process.env.BOT_TOKEN);
 
 var request = require("request");
 var options = { method: 'GET',
