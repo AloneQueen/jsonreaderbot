@@ -1,0 +1,22 @@
+{
+    "name": "Json To Telegram",
+    "repository": "https://github.com/AloneQueen/jsonreaderbot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
